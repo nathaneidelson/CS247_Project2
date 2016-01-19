@@ -38,13 +38,13 @@
     <table class="table">
        
         <tbody>
-          <tr class='clickable-row' data-href='./chat.html'>
+          <tr class='clickable' data-href='./chat.html'>
             <td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/US_flag_48_stars.svg/220px-US_flag_48_stars.svg.png" height="20" width="30"> </td>
             <td>English</td>
             <td><img class="callout" src="images/right_callout.png">
           </tr>
 
-          <tr class='clickable-row' data-href='./chat.html'>
+          <tr class='clickable' data-href='./chat.html'>
             <td>
               <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/1280px-Flag_of_Spain.svg.png" height="20" width="30">
             </td>
@@ -52,25 +52,25 @@
             <td><img class="callout" src="images/right_callout.png">
           </tr>
 
-          <tr class='clickable-row' data-href='./chat.html'>
+          <tr class='clickable' data-href='./chat.html'>
             <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Flag_of_Germany_(3-2_aspect_ratio).svg/2000px-Flag_of_Germany_(3-2_aspect_ratio).svg.png" height="20" width="30"></td>
             <td>Deutsch</td>
             <td><img class="callout" src="images/right_callout.png">
           </tr>
 
-          <tr class='clickable-row' data-href='./chat.html'>
+          <tr class='clickable' data-href='./chat.html'>
             <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Civil_and_Naval_Ensign_of_France.svg/2000px-Civil_and_Naval_Ensign_of_France.svg.png" height="20" width="30"></td>
             <td>Français</td>
             <td><img class="callout" src="images/right_callout.png">
           </tr>
 
-          <tr class='clickable-row' data-href='./chat.html'>
+          <tr class='clickable' data-href='./chat.html'>
             <td><img src="https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg" height="20" width="30"></td>
             <td>Italiano</td>
             <td><img class="callout" src="images/right_callout.png">
           </tr>
 
-          <tr class='clickable-row' data-href='./chat.html'>
+          <tr class='clickable' data-href='./chat.html'>
             <td><img src="http://www.stickylife.com/images/u/e3eb34bb54974ac8a63377c856073e04-800.png" height="20" width="30"></td>
             <td>Language</td>
             <td><img class="callout" src="images/right_callout.png">
@@ -80,10 +80,6 @@
         </tbody>
       </table>
 
-
-      <footer>
-        <p>&copy; The Cool Team</p>
-      </footer>
     </div> <!-- /container -->
 
 
@@ -98,7 +94,7 @@
 
     <script>
     $(document).ready(function($) {
-        $(".clickable-row").click(function() {
+        $(".clickable").click(function() {
             window.document.location = $(this).data("href");
         });
     });

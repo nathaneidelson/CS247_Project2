@@ -27,7 +27,10 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">InnVision</a>
+          <a class="navbar-brand" href="#">  InnVision</a>
+
+          <button class="clickable pull-right" data-href="./index.html">Language</button>
+
         </div>
       </div>
     </nav>
@@ -55,7 +58,7 @@
         <img src="images/AIMessage3.png" class="col-xs-4 chat-bubble">
       </div>
 
-      <div class="row clickable-row">
+      <div class="row clickable">
         <img src="images/AIMessage4.png" class="col-xs-7 chat-bubble">
       </div>
 
@@ -63,10 +66,10 @@
         <img src="images/AIMessage5.png" class="col-xs-7 chat-bubble">
       </div>
 
+      <div class="row">
+        <img src="images/message_input.png" class="col-xs-12 message-input">
+      </div>
 
-      <footer>
-        <p>&copy; The Cool Team</p>
-      </footer>
     </div> <!-- /container -->
 
 
@@ -79,7 +82,7 @@
 
     <script>
     $(document).ready(function($) {
-        $(".clickable-row").click(function() {
+        $(".clickable").click(function() {
             window.document.location = $(this).data("href");
         });
     });
