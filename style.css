@@ -12,3 +12,7 @@ body {
 .navbar-header {
 	text-align: center;
 }
+
+.chat-bubble {
+	padding: 10px;
+}
