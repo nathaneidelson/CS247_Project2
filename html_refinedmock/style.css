@@ -1,0 +1,42 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+button {
+	color: gray;
+	background-color: transparent;
+	border: none;
+}
+
+.callout {
+	height: 15px; 
+	width: 10px;
+}
+
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+
+}
+
+
+.navbar-brand {
+	float:none;
+	padding-left: 40px;
+}
+
+.chat-bubble {
+	padding: 10px;
+}
+
+.message-input {
+	padding: 0px;
+}
+
+.navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
