@@ -15,12 +15,17 @@ button {
 	width: 10px;
 }
 
+.navbar-inverse {
+	border: 0px;
+}
+
 .navbar-header {
     float: left;
     padding: 15px;
     text-align: center;
     width: 100%;
-
+    background-color: #F7F7F7;
+    box-shadow: 0px;
 }
 
 
